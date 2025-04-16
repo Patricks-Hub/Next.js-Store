@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ItemCard from "../components/ItemCard";
-import products from "../data/products.json"; // Import product data
+import products from "../data/products.json"; // Import the JSON data
 
 export default function Home() {
   const [cartCount, setCartCount] = useState(0);
